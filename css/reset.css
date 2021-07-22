@@ -1,0 +1,217 @@
+body{
+	overflow-x: hidden;
+	background-color: #FCFCFC;
+}
+
+body,
+body *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;	
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body *{
+	background-color: transparent;
+}
+
+a{
+	text-decoration: none;
+}
+
+address{
+	font-style: normal;
+}
+
+li{
+	list-style: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*-----------------------*/
+
+.playlist_script_font{
+	font-family: 'Playlist Script';
+}
+
+.playlist_script_font.mid{
+	font-size: 53px;
+	color: #2D2D2D;
+}
+
+.playlist_script_font.lar{
+	font-size: 60px;
+	color: rgba(0, 0, 0, 0.031);
+	transform: matrix( 1.99368324803524,-0.97779864913718,0.97779864913718,1.99368324803524,0,0);
+}
+
+/*-----------------------*/
+
+.playfairdisplaybold_font{
+	font-family: 'PlayfairDisplayBold';
+	font-size: 90px;
+	color: #F1F0F0;
+}
+
+/*-----------------------*/
+
+.playfairdisplayregular_font{
+	font-family: 'PlayfairDisplayRegular';
+	font-weight: lighter;
+}
+
+.playfairdisplayregular_font.mid43,
+.playfairdisplayregular_font.mid21{
+	font-size: 24px;	
+}
+
+.playfairdisplayregular_font.mid43{
+	color: #2B2B2B;
+}
+
+.playfairdisplayregular_font.mid21{
+	color: #151515;
+}
+
+.playfairdisplayregular_font.lar{
+	font-size: 48px;
+	color: #2D2D2D;
+}
+
+.playfairdisplayregular_font.nor{
+	font-size: 20px;
+	color: #2B2B2B;
+}
+
+.playfairdisplayregular_font.sm,
+.playfairdisplayregular_font.sm232{
+	font-size: 16px;
+	color: #2B2B2B;
+}
+
+.playfairdisplayregular_font.sm232:hover{
+	color: #E8B66C;
+}
+
+/*-----------------------*/
+
+.roboto_font{
+	font-family: 'Roboto';
+}
+
+.roboto_font.sm{
+	font-size: 14px;
+	color: #B0B0B0;
+}
+
+.roboto_font.nor{
+	font-size: 16px;
+	color: #2B2B2B;
+}
+
+/*-----------------------*/
+
+.roboto_condensed_font{
+	font-family: 'Roboto Condensed';
+}
+
+.roboto_condensed_font.sm45,
+.roboto_condensed_font.sm188,
+.roboto_condensed_font.sm254,
+.roboto_condensed_font.sm232{
+	font-size: 14px;
+}
+
+.roboto_condensed_font.sm45{
+	color: #2D2D2D;
+}
+
+.roboto_condensed_font.sm188,
+.roboto_condensed_font .fsm188{
+	color: #BCBCBC;
+}
+
+.roboto_condensed_font.sm254,
+.roboto_condensed_font .fsm254{
+	color: #FEFEFE;
+}
+
+.roboto_condensed_font.sm232,
+.roboto_condensed_font .fsm232{
+	color: #E8B66C;
+}
+
+.roboto_condensed_font .fsm232{
+	font-weight: normal;
+}
+
+.roboto_condensed_font.nor174,
+.roboto_condensed_font.nor45,
+.roboto_condensed_font.nor43{
+	font-size: 15px;
+}
+
+.roboto_condensed_font.nor174{
+	color: #AEAEAE;
+}
+
+.roboto_condensed_font.nor45{
+	color: #2D2D2D;
+}
+
+.roboto_condensed_font.nor43{
+	color: #2B2B2B;
+}
+
+.roboto_condensed_font.mid{
+	font-size: 17.64px;
+	color: #D6D6D6;
+}
+
+.roboto_condensed_font.lar{
+	font-size: 18px;
+	color: #E8B66C;
+}
+
+/*-----------------------*/
+
+.uc{
+	text-transform: uppercase;
+}
+
+.lh12{
+	line-height: 1.2;
+}
+
+.lh20{
+	line-height: 2;
+}
+
+.lh1286{
+	line-height: 1.286;
+}
+
+.lh2143{
+	line-height: 2.143;
+}
+
+.lh15{
+	line-height: 1.5;
+}
+
+/*-----------------------*/
+
+.ns{
+	display: block;
+}
+
+/*-----------------------*/
+
+.cp{
+	cursor: pointer;
+}
